@@ -1,0 +1,22 @@
+
+  body{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;margin:0;padding:1rem;box-sizing:border-box;}
+  #controls{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:1rem;}
+  label{font-weight:600;font-size:.95rem;display:flex;flex-direction:column;gap:.3rem;}
+  select{padding:.5rem .75rem;min-width:9rem;font-size:1rem;}
+  #message{color:#d9534f;font-weight:600;margin:.6rem 0;display:none;}
+  #graphWrapper {
+    width: 100%;
+    height: calc((100vh - 170px) * 1.3); /* 30% taller */
+    overflow: auto;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  svg {
+    width: 104%;   /* Reduced from 130% to 104% */
+    height: 104%;  /* Reduced from 130% to 104% */
+    cursor: grab;
+    background: #fff;
+  }
+  .link{stroke:#bbb;stroke-width:1.7px;}
+  .tooltip{position:absolute;pointer-events:none;padding:.4rem .8rem;background:#000;color:#fff;border-radius:4px;font-size:.85rem;opacity:0;transition:opacity .15s;white-space:nowrap;}

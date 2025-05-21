@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Alliance Graph – Incremental Common‑Partner View (4‑Way, 1.2× Scaled)</title>
+
+
+<link href="style.css" rel="stylesheet"/></head>
+<body>
+<div id="controls">
+<label>Target<select id="targetSel"></select></label>
+<label>Compare 1<select id="comp1Sel"><option value="">–</option></select></label>
+<label>Compare 2<select id="comp2Sel"><option value="">–</option></select></label>
+<label>Compare 3<select id="comp3Sel"><option value="">–</option></select></label>
+</div>
+<div id="message"></div>
+<div id="graphWrapper"><svg id="graph"></svg></div>
+
+<script src="https://d3js.org/d3.v6.min.js"></script><script src="data.js"></script><script src="script.js"></script></body>
+</html>
