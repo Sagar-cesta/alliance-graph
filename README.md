@@ -46,3 +46,14 @@ python -m http.server 8000
 http://localhost:8000
 
 You should now see the alliance graph working in your browser!
+
+
+
+🧾 Summary of Tools You Used:
+🗂️ GitHub for hosting your code
+
+🌐 GitHub Pages for deploying it online
+
+🐍 Python for running it locally
+
+🧠 HTML + CSS + JavaScript for your interactive visualization
