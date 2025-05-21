@@ -1,3 +1,20 @@
+🧾 Summary of Tools I Used:
+
+🗂️ GitHub for hosting my code
+
+🌐 GitHub Pages for deploying it online
+
+🐍 Python for running it locally
+
+🧠 HTML + CSS + JavaScript for your interactive visualization
+
+
+
+
+
+
+Inorder to Run the above code
+
 Step 1: Install Python (if not already installed)
 Python is a programming language that includes a simple web server.
 
@@ -49,9 +66,4 @@ You should now see the alliance graph working in your browser!
 
 
 
-🧾 Summary of Tools I Used:
 
-🗂️ GitHub for hosting your code
-🌐 GitHub Pages for deploying it online
-🐍 Python for running it locally
-🧠 HTML + CSS + JavaScript for your interactive visualization
